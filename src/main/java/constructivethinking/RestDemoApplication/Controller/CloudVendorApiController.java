@@ -30,7 +30,7 @@ public class CloudVendorApiController {
      @DeleteMapping("{id}")
     public String dVendorDetails(String id){
         this.cloudVendorApiModel=null;
-        return "Dsuccessfully";
+        return "del successfully";
     }
 
 }
