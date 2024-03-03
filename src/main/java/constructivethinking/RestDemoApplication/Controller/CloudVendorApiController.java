@@ -19,7 +19,7 @@ public class CloudVendorApiController {
     @PostMapping
      public String getVendorDetails(@RequestBody CloudVendorApiModel cloudVendorApiModel){
         this.cloudVendorApiModel=cloudVendorApiModel;
-        return "successfully connected";
+        return "Created Successfully";
      }
      @PutMapping
      public String updateVendorDetails(@RequestBody CloudVendorApiModel cloudVendorApiModel)//THE REQUEST WILL BE TAKEN FROM THE USER
