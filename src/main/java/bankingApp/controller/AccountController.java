@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/accounts")
 public class AccountController {
 
-
     private AccountService accountService;
     public AccountController(AccountService accountService) {
         this.accountService = accountService;
